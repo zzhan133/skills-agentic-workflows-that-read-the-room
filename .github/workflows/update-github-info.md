@@ -36,9 +36,9 @@ Keep the GitHub Info page useful, concise, and ready for Mona to review.
 ## Instructions
 
 1. Read `notes/mona-notes.md` before making any changes.
-2. Use web-fetch to read https://github.blog/latest/.
-3. Use web-fetch to read https://github.blog/changelog/.
-4. Use web-fetch to read https://awesome-copilot.github.com/workflows/.
+2. Call the `web_fetch` tool (not shell commands such as `curl` or `wget`) for https://github.blog/latest/.
+3. Call the `web_fetch` tool (not shell commands such as `curl` or `wget`) for https://github.blog/changelog/.
+4. Call the `web_fetch` tool (not shell commands such as `curl` or `wget`) for https://awesome-copilot.github.com/workflows/.
 5. Identify recent updates that help developers learn GitHub faster. Prefer a small number of practical, high-signal items.
 6. Update only `site/content/github-info.md` with concise summaries. Mention the source for every item, linking to the relevant GitHub Blog, GitHub Changelog, or Awesome Copilot workflows page.
 7. Preserve the existing structure, voice, and valid frontmatter of `site/content/github-info.md`.
